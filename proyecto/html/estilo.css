@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100;300;400;900&display=swap');
+
+/* FUENTES
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+/*Estilos generales*/
+html, body{
+	margin: 0px;
+	padding: 0px;
+    background-color: #f2f2f2;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+/*Clases reutilizables*/
+.container{
+	width: 1400px;
+	margin: auto;
+}
+/*Usar clase clearfix en caso de que el float cause problemas a otras etiquetas*/
+.clearfix{
+	clear: both;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+}
+.cabecera {
+    background-color: #f2f2f2;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.izquierda, .derecha {
+    display: flex;
+    align-items: center;
+}
+.izquierda{
+    margin-left: 30px;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+}
+.menu li {
+    margin-right: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.menu li a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.bloque{
+    height: 1100px;
+    width: 1519px;
+}
+
+.info{
+    width: 970px;
+    height: 550px;
+    background-color: f2f2f2;
+    float: left;
+}
+
+.info h1{
+    margin: 50px;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+.info p{
+    margin: 50px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+}
+
+.info img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.curso {
+    margin-top: 20px;
+    margin-left: 75px;
+    display: inline-block;
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    text-align: center;
+    margin-right: 15px; /* Espacio entre las imágenes */
+    vertical-align: top;
+}
+.curso p{
+    font-family: 'Lato', sans-serif;
+}
+
+.curso img {
+    height: auto;
+    width: 120px;
+}
+
+
+
+.enviar{
+    width: 500px;
+    height: 150px;
+    background-color: f2f2f2;
+    float: right;
+
+}
+
+.enviar {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.enviar h1 {
+    margin-top: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.enviar form {
+    margin-top: 20px;
+}
+
+.enviar label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.enviar input[type="text"],
+.enviar input[type="email"],
+.enviar input[type="tel"],
+.enviar select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.enviar input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.barras{
+    height: 600px;
+    width: 1000px;
+    background-color: #f2f2f2;
+    float: left;
+}
+
+.barras h1{
+    margin: 50px;
+    margin-top: 80px;
+    font-family: 'Lato', sans-serif;
+}
+
+.barras p{
+    margin: 50px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.oye{
+    font-size: 20px;
+}
+
+.requisito{
+    width: 520px;
+    height: 515px;
+    background-color: #f2f2f2;
+}
+.requisito h2{
+    margin-top:70px;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+
+
+}
+.requisito h1{
+    font-family: 'Lato', sans-serif;
+}
+
+.requisito p{
+    font-family: 'Lato', sans-serif;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    margin-top: 50px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.catalogo{
+    height: 400px;
+}
+
+/* Estilos para el catálogo */
+.catalogo {
+    padding: 20px;
+    background-color: #f2f2f2; 
+    border: 1px solid #ddd;
+}
+
+.catalogo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+
+}
+
+.catalogo .precio {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.catalogo h3 {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+
+}
+
+.catalogo p {
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.catalogo ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.catalogo ul li {
+    margin-bottom: 5px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.pie-pagina {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.formulario-contacto {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.formulario-contacto h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario-contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario-contacto input[type="text"],
+.formulario-contacto input[type="email"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-contacto input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario-contacto input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+    .formulario-contacto {
+        width: 90%;
+    }
+}
+
+.formularioss{
+    height: 750px;
+}
+
+
+
+
+
+
+
+
+

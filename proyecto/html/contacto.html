@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSecCourse</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="image/png" href="oye.png">
+</head>
+<body>
+    <div class="container">
+        <!-- Cabecera -->
+        <div class="cabecera">
+            <div class="izquierda">
+                <img src="imagen.png" alt="Logo de CyberSecCourse" class="logo">
+            </div>
+            <div class="derecha">
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="precios.html">Precios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#">Moodle</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="formularioss">
+            <main>
+                <form class="formulario-contacto" method="post" action="guardar_datos.php">
+                    <h2>Contáctanos</h2>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion" required>
+                    <label for="codigo_postal">Código Postal:</label>
+                    <input type="text" id="codigo_postal" name="codigo_postal" required>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" required>
+                    <label for="gmail">Gmail:</label>
+                    <input type="email" id="gmail" name="gmail" required>
+                    <label for="dni">DNI:</label>
+                    <input type="text" id="dni" name="dni" required>
+                    <input type="submit" value="Enviar">
+                </form>
+            </main>
+
+        </div>
+        
+        
+       
+    </div>
+    <div class="clearfix"></div>
+    <footer class="pie-pagina">
+        <p>2025 CyberSecCourse</p>
+    </footer>
+    
+</body>
+</html>
+
